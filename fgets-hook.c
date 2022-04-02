@@ -22,6 +22,9 @@
 *
 *  Hint: Note that when our hooked fgets() is called, char *s, is an empty buffer. Calling the 
 *  libc fgets() will populate the s buffer.
+*
+*  Also note that you don't have to follow the comments. If you have a different structure for completing
+*  the tasks, you can use that.
 * 
 */
 char *fgets(char *s, int size, FILE *stream)
