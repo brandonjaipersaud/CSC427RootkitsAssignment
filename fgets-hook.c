@@ -20,6 +20,9 @@
 *  When the user enters a string that does not contain "hello" as a substring, they should see the original string
 *  appear in stdout (i.e. fgets() behaves normally).
 *
+*  Use LD_PRELOAD to dynamically inject the hook into all running processes as you've seen
+*  in the demo and tutorial.
+*
 *  Hint: Note that when our hooked fgets() is called, char *s, is an empty buffer. Calling the 
 *  libc fgets() will populate the s buffer.
 *
